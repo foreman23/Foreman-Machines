@@ -1,0 +1,123 @@
+body {
+  background-color: #242423;
+  overflow: hidden;
+}
+
+.carousel-inner {
+  background-color: black;
+}
+
+.carousel-inner img {
+  width: 100%;
+  max-height: 60vh;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  opacity: 70%;
+}
+
+.carousel-caption {
+  color: white;
+}
+
+.navbar-dark {
+  background-color: #20201F;
+  padding: 10px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: black;
+  font-family: 'Open Sans', sans-serif;;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #FF7247;
+}
+
+.navbar-dark .navbar-brand {
+  color: white;
+  font-family: 'Open Sans', sans-serif;;
+}
+
+.navbar-dark .navbar-brand:hover {
+  color: #FF845E;
+}
+
+
+.navbar-dark .navbar-nav {
+  padding-right: 45px;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+  padding-right: 25px;
+  padding-left: 25px;
+  color: white;
+}
+
+.fa-shopping-cart {
+  display: inline-block;
+  margin-right: 50px;
+  padding: 0px;
+  color: #EDB20F;
+}
+
+.shoppingCart a {
+  margin-right: 10px;
+  padding: 0px;
+}
+
+.bar {
+  height: 15px;
+  background-color: #20201F;
+}
+
+#homeHeader {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #EDB20F;
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.contentHome {
+  padding-top: 10px;
+  padding-bottom: 15px;
+  color: #E8EDEB;
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+  background-color:#1B1B1B;
+}
+
+.contentIcon {
+  padding-top: 15px;
+}
+
+.fa-clock {
+  color: #F5CB5C;
+}
+
+.fa-graduation-cap {
+  color: #F5CB5C;
+}
+
+.fa-tools {
+  color: #F5CB5C;
+}
+
+.contactNav {
+  margin-left: 15px;
+}
+
+.contactIcon {
+  color: #EDB20F;
+  padding-right: 10px;
+  padding-left: 15px;
+}
+
+.contactNavText {
+  color: #E8EDEB;
+}
