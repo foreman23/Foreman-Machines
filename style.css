@@ -1,6 +1,6 @@
 body {
   background-color: #242423;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .carousel-inner {
@@ -27,11 +27,11 @@ body {
 
 .navbar-dark .navbar-nav .nav-link {
   color: black;
-  font-family: 'Open Sans', sans-serif;;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
-  color: #FF7247;
+  color: #EF220F;
 }
 
 .navbar-dark .navbar-brand {
@@ -40,7 +40,7 @@ body {
 }
 
 .navbar-dark .navbar-brand:hover {
-  color: #FF845E;
+  color: #EF220F;
 }
 
 
@@ -54,11 +54,25 @@ body {
   color: white;
 }
 
+#flagIcon {
+  image-rendering: crisp-edges;
+  -webkit-backface-visibility: hidden; 
+  -ms-transform: translateZ(0); /* IE 9 */
+  -webkit-transform: translateZ(0); /* Chrome, Safari, Opera */
+  transform: translateZ(0);
+  margin-bottom: 4px;
+  padding-right: 10px;
+}
+
+#made-in-us {
+  padding-right: 10px;
+}
+
 .fa-shopping-cart {
   display: inline-block;
   margin-right: 50px;
   padding: 0px;
-  color: #EDB20F;
+  color: #5BB1EA;
 }
 
 .shoppingCart a {
@@ -66,46 +80,29 @@ body {
   padding: 0px;
 }
 
+.fa-shopping-cart:hover {
+  color: #3BA1E5;
+}
+
 .bar {
   height: 15px;
+  margin: auto;
+  width: 100%;
   background-color: #20201F;
+}
+
+#homeHeader h2 {
+  font-weight: 900;
 }
 
 #homeHeader {
   padding-top: 15px;
-  padding-bottom: 15px;
-  color: #EDB20F;
-  display: inline-block;
-  text-align: center;
-  margin: 0 auto;
-  font-family: 'Open Sans', sans-serif;
-}
-
-.contentHome {
-  padding-top: 10px;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
   color: #E8EDEB;
   display: inline-block;
   text-align: center;
   margin: 0 auto;
-  font-family: 'Open Sans', sans-serif;
-  background-color:#1B1B1B;
-}
-
-.contentIcon {
-  padding-top: 15px;
-}
-
-.fa-clock {
-  color: #F5CB5C;
-}
-
-.fa-graduation-cap {
-  color: #F5CB5C;
-}
-
-.fa-tools {
-  color: #F5CB5C;
+  font-family: 'Overpass', sans-serif;
 }
 
 .contactNav {
@@ -113,11 +110,277 @@ body {
 }
 
 .contactIcon {
-  color: #EDB20F;
+  color: #5BB1EA;
   padding-right: 10px;
   padding-left: 15px;
 }
 
 .contactNavText {
   color: #E8EDEB;
+  font-family: 'Overpass', sans-serif;
 }
+
+.videoHomeContainer {
+  background-image: url("images/background/wp4428309-american-flag-4k-wallpapers.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  position: relative;
+}
+
+.videoHome {
+  margin: auto;
+  padding-left: 0;
+  padding-right: 0;
+  border-left: #242423 10px solid;
+  border-right: #242423 10px solid;
+  width: 50%;
+}
+
+.itemHome {
+  margin: 0 auto;
+  background-color: #20201F;
+  padding-top: 25px;
+}
+
+.itemHome img {
+  display: block;
+  margin: auto;
+  width: 50%;
+  border-radius: 10px;
+}
+
+#itemHome1Border{
+  background-color: #3BA1E5;
+}
+
+#itemHome1 .itemDetails{
+  margin-left: 20%;
+}
+
+#itemHome2 .itemDetails{
+  margin-right: 20%;
+}
+
+#itemHome1 img{
+  margin-right: 15%;
+}
+
+#itemHome2 img {
+  margin-left: 15%;
+}
+
+.itemDetails {
+  color: white;
+  margin: auto;
+  text-align: center;
+  padding-top: 10px;
+}
+
+#itemHome1 .addCart {
+  margin: auto;
+  margin-left: 20%;
+  text-align: center;
+}
+
+.itemHome img:hover {
+  opacity: 90%;
+}
+
+#itemHome2 .addCart {
+  margin: auto;
+  margin-right: 20%;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  #itemHome1 img {
+    margin:auto;
+  }
+  #itemHome1 .itemDetails {
+    margin: auto;
+  }
+  #itemHome1 .addCart {
+    margin: auto;
+  }
+  #itemHome2 img {
+    margin:auto;
+  }
+  #itemHome2 .itemDetails {
+    margin: auto;
+  }
+  #itemHome2 .addCart {
+    margin: auto;
+  }    
+}
+
+.addCart a img {
+  color: #197BBD;
+}
+
+.addCart a {
+  color: #197BBD;
+}
+
+.addCart a:hover {
+  color: #5BB1EA;
+}
+
+.homeStoreAnchor {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  font-size: 24px;
+  font-family: 'Overpass', sans-serif;
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #20201F;
+}
+
+.homeStoreAnchor span h1{
+  display: inline-block;
+  background-color: #197BBD;
+  border: white solid 2px;
+  padding: 10px;
+}
+
+.showCaseRow {
+  font-family: 'Overpass', sans-serif;
+}
+
+.homeAboutUs {
+  color: white;
+  text-align: center;
+  font-family: 'Overpass', sans-serif;
+  padding-top: 35px;
+  padding-bottom: 45px;
+}
+
+.homeAboutUs h1 {
+  margin-left: 20%;
+  font-weight: 800;
+}
+
+.aboutUs h1 {
+  text-align: left;
+  padding-bottom: 5px;
+}
+
+.homeAboutUs p {
+  width: 80%;
+  padding-bottom: 25px;
+  font-size: 24px;
+  margin-left: 20%;
+  text-align: justify;
+}
+
+@media (max-width: 767px) {
+  .homeAboutUs p {
+    margin: auto;
+    font-size: 18px;
+    display: block;
+  }
+}
+
+#chooseUs {
+  margin-left: 0%;
+  margin-top: 0px;
+}
+
+.chooseUs h2 {
+  padding-top: 20px;
+}
+
+.chooseUs .fas{
+  padding-top: 60px;
+}
+
+.chooseUs .fa-tools {
+  color: #18BC45;
+}
+
+.chooseUs .fa-user-clock {
+  color: #18BC45;
+}
+
+.homeContactAnchor {
+  font-size: 24px;
+  font-family: 'Overpass', sans-serif;
+  color: white;
+  margin: auto;
+  margin-left: 20%;
+}
+
+/* Footer Stuff */
+.footer {
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  padding: 100px 0;
+  padding-top: 15px;
+  box-sizing: border-box;
+  background-color: #1B1A1D;
+  color:  #595959;
+  text-align: center;
+  font-family: 'Overpass', sans-serif;
+}
+
+.footer h1 {
+  font-weight: 800;
+}
+
+.footerBackground {
+  background-color: #1B1A1D;
+}
+
+.footer-list {
+  list-style: none;
+  display: inline-block;
+  margin-left: 45%;
+}
+
+@media (max-width: 767px) {
+  .footer-list {
+      margin-left: -8%;
+  }
+}
+
+.footer-list li {
+  padding: 5px;
+  float: left;
+}
+
+.footer-list a{
+  color: inherit;
+}
+
+.footer-list a:hover {
+  color:  #4d4d4d;
+}
+
+.footer-list h1 {
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.footer-nav-list h1 {
+  padding-bottom: 2px;
+}
+
+.footer-nav-list {
+  list-style: none;
+  display: inline-block;
+  margin-right: 45%;
+  line-height: 22px;
+}
+
+.footer-nav-list li a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.footer-nav-list li a:hover {
+  color: #4d4d4d;
+}
+
+/* END FOOTER */
